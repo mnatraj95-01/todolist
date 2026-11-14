@@ -27,10 +27,10 @@ function add()
         '<button onclick="this.parentElement.remove(); document.getElementById(\'success\')?.remove()">Delete</button>';
         document.getElementById("list").appendChild(b);
         document.getElementById("task").value = "";
-        let priya = document.createElement("h1");
-        priya.textContent = "Successfully Created";
-        priya.id = "success";
-        document.getElementById("list").appendChild(priya);
+        let p = document.createElement("h1");
+        p.textContent = "Successfully Created";
+        p.id = "success";
+        document.getElementById("list").appendChild(p);
     }
 }
 </script>
